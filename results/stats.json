@@ -1,0 +1,77 @@
+{
+  "raw_rows": 344,
+  "clean_rows": 333,
+  "rows_removed": 11,
+  "missing_cells": 19,
+  "columns": [
+    "species",
+    "island",
+    "bill_length_mm",
+    "bill_depth_mm",
+    "flipper_length_mm",
+    "body_mass_g",
+    "sex"
+  ],
+  "species_counts": {
+    "Adelie": 146,
+    "Gentoo": 119,
+    "Chinstrap": 68
+  },
+  "island_counts": {
+    "Biscoe": 163,
+    "Dream": 123,
+    "Torgersen": 47
+  },
+  "sex_counts": {
+    "Male": 168,
+    "Female": 165
+  },
+  "species_island": {
+    "Adelie": {
+      "Biscoe": 44,
+      "Dream": 55,
+      "Torgersen": 47
+    },
+    "Chinstrap": {
+      "Biscoe": 0,
+      "Dream": 68,
+      "Torgersen": 0
+    },
+    "Gentoo": {
+      "Biscoe": 119,
+      "Dream": 0,
+      "Torgersen": 0
+    }
+  },
+  "species_means": {
+    "Adelie": {
+      "bill_length_mm": 38.82,
+      "bill_depth_mm": 18.35,
+      "flipper_length_mm": 190.1,
+      "body_mass_g": 3706.16
+    },
+    "Chinstrap": {
+      "bill_length_mm": 48.83,
+      "bill_depth_mm": 18.42,
+      "flipper_length_mm": 195.82,
+      "body_mass_g": 3733.09
+    },
+    "Gentoo": {
+      "bill_length_mm": 47.57,
+      "bill_depth_mm": 15.0,
+      "flipper_length_mm": 217.24,
+      "body_mass_g": 5092.44
+    }
+  },
+  "overall_means": {
+    "bill_length_mm": 43.99,
+    "bill_depth_mm": 17.16,
+    "flipper_length_mm": 200.97,
+    "body_mass_g": 4207.06
+  },
+  "classifier": {
+    "test_size": 67,
+    "correct": 65,
+    "accuracy_percent": 97.01
+  }
+}
